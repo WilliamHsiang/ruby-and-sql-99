@@ -5,4 +5,19 @@
 
 # String Class
 
+favorite_food = "tacos"
+second_favorite_food = "sushi"
+
+puts favorite_food.class
+puts second_favorite_food
+
 # String Methods
+
+class Dog
+  def speak
+    puts "woof"
+  end
+end
+
+fido = Dog.new
+fido.speak
